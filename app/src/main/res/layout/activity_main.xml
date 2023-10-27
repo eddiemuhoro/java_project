@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/name"
+        android:hint="name"
+        android:padding="8dp"
+        android:layout_margin="20dp"
+        style="@android:style/Widget.EditText" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/Name"
+        android:id="@+id/Gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/gender"
+        android:hint="Gender"
+        android:padding="8dp"
+        android:layout_margin="20dp"
+        style="@android:style/Widget.EditText" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/Gender"
+        android:id="@+id/RegNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/reg"
+        style="@android:style/Widget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Reg No"
+        android:padding="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/RegNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="View details"
+            android:textColor="@color/white"
+            android:id="@+id/button"
+            ></com.google.android.material.button.MaterialButton>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:text="'"
+            android:textSize="20sp"
+            android:id="@+id/name2"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text="'"
+            android:id="@+id/genderI"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/regNo"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:hint="bvjfbv"
+            android:text="Initial Text"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
