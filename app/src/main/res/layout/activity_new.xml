@@ -18,8 +18,16 @@
             android:id="@+id/regNo"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:hint="bvjfbv"
-            android:text="Welcome"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/regNo2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text=""
             android:textSize="20sp"
             android:layout_height="wrap_content"
             />

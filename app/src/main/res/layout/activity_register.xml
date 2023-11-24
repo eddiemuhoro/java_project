@@ -37,7 +37,7 @@
             android:hint="dollar"
             android:padding="8dp"
             android:layout_margin="20dp"
-             />
+            style="@android:style/Widget.EditText" />
     </LinearLayout>
     <LinearLayout
         android:layout_below="@+id/Email"
@@ -54,7 +54,7 @@
             android:hint="euro"
             android:padding="8dp"
             android:layout_margin="20dp"
-            />
+            style="@android:style/Widget.EditText" />
 
 
 
@@ -75,7 +75,7 @@
             android:hint="pound"
             android:padding="8dp"
             android:layout_margin="20dp"
-            />
+            style="@android:style/Widget.EditText" />
 
     </LinearLayout>
 
@@ -83,46 +83,26 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_below="@+id/Confirm"
-        android:id="@+id/last"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Signup"
+            android:textColor="@color/white"
+            android:id="@+id/buttonSignup"
+            ></com.google.android.material.button.MaterialButton>
 
 
 
 
         <TextView
             android:id="@+id/result"
-
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:text="Don't have an account? Sign in."
             android:textSize="20sp"
             android:textAlignment="center"
-            android:layout_height="wrap_content"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_below="@+id/last"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Hello thre"
-    />
-
-        <ListView
-            android:id="@+id/listview"
-            android:layout_width="match_parent"
-
-            android:textSize="20sp"
             android:layout_height="wrap_content"
             />
 

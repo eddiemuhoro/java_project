@@ -1,14 +1,31 @@
 package com.example.students;
 
 public class Stude {
-    Integer idNo;
-    String name, regNo, gender;
+     String name;
+     String course;
+     String regNo;
 
-    String School(){
-        return "Dekut";
+    public Stude(String name, String course, String regNo) {
+        this.name = name;
+        this.course = course;
+        this.regNo = regNo;
     }
 
-    Integer Sum(int x, int y){
-        return (x+y);
+    public String getName() {
+        return name;
     }
+
+
+
+    public String getCourse() {
+        return course;
+    }
+
+
+
+    public String getRegNo() {
+        return regNo;
+    }
+
+
 }
