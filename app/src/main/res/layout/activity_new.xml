@@ -7,14 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:paddingLeft="5dp"
         android:layout_height="wrap_content"
-
         >
 
         <TextView
