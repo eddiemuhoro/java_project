@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#0000FF" /> <!-- Blue color when button is pressed -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#31602E" /> <!-- Blue color when button is not pressed -->
+        </shape>
+    </item>
+</selector>
